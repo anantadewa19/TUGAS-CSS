@@ -1,0 +1,71 @@
+/* Grouping selector */
+h1, h2 {
+    color: darkred;
+}
+
+/* Element selector */
+body {
+    background-color: #FFF3E0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Judul halaman */
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 40px;
+}
+
+/* Descendant selector */
+header p {
+    text-align: center;
+    color: #555555;
+}
+
+/* Menu */
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+/* Item menu */
+.item {
+    background-color: #FFE0B2;
+    padding: 15px;
+    width: 30%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Pseudo-class hover */
+.item:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
+
+/* Harga */
+.item p {
+    color: #008000;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+}
