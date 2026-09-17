@@ -1,71 +1,80 @@
-/* Grouping selector */
-h1, h2 {
-    color: darkred;
-}
-
-/* Element selector */
+/* Pengaturan seluruh halaman */
 body {
-    background-color: #FFF3E0;
     font-family: Arial, sans-serif;
+    background-color: #eaf2ff;
+    color: #333;
     margin: 0;
+    padding: 30px;
 }
 
-/* Judul halaman */
+/* Judul utama */
 h1 {
     text-align: center;
-    font-family: Georgia, serif;
+    color: #1557b0;
     font-size: 40px;
 }
 
-/* Descendant selector */
-header p {
-    text-align: center;
-    color: #555555;
+/* Garis */
+hr {
+    border: none;
+    height: 2px;
+    background-color: #1557b0;
+    margin: 20px 0;
 }
 
-/* Menu */
-main {
-    width: 80%;
+/* Foto profil */
+img {
+    display: block;
     margin: 20px auto;
+    border-radius: 50%;
+    border: 5px solid #1557b0;
+    box-shadow: 0 5px 15px #999;
 }
 
-section {
-    background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-
-.menu {
-    display: flex;
-    gap: 15px;
-}
-
-/* Item menu */
-.item {
-    background-color: #FFE0B2;
-    padding: 15px;
-    width: 30%;
+/* Judul setiap bagian */
+h2 {
+    color: white;
+    background-color: #1557b0;
+    padding: 12px;
     border-radius: 8px;
-    text-align: center;
 }
 
-/* Pseudo-class hover */
-.item:hover {
-    background-color: orange;
-    transform: scale(1.05);
+/* Paragraf */
+p {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
 }
 
-/* Harga */
-.item p {
-    color: #008000;
+/* Nama */
+strong {
+    color: #1557b0;
+}
+
+/* Highlight */
+mark {
+    background-color: #ffd54f;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+/* Link */
+a {
+    color: #1557b0;
+    text-decoration: none;
     font-weight: bold;
 }
 
+/* Efek ketika mouse diarahkan ke link */
+a:hover {
+    color: #e63946;
+    text-decoration: underline;
+}
+
 /* Footer */
-footer {
+small {
+    display: block;
     text-align: center;
-    background-color: darkred;
-    color: white;
-    padding: 10px;
+    color: #555;
+    margin-top: 20px;
 }
